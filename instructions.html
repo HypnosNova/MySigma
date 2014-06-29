@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/book.css">
+	</head>
+
+	<body>
+		<div style="margin-left: 67px;">
+			<div id="flipbook">
+				<div depth="5" style="background-image:url(img/page.png);" class="hard" >
+					<p style="font-size: 100px;font-family: 'edwardian script itc';">
+						<br/>
+						MyΣ
+					</p>
+					<p style="font-size:40px;font-family: script;margin-top: -30px;font-weight: bold;">
+						How to Play
+					</p>
+
+				</div>
+				<div style="background-image:url(img/page.png);" class="hard" >
+					<h1>
+					<br/>
+					<br/>
+					Rule One:</h1><h4>
+					<br/>
+					Select several numbers and their sum equals the result that system requires.</h4>
+				</div>
+				<div style="background-image:url(img/page.png);" class="hard">
+					<br/>
+					<img src="img/rule/rule1.jpg" width="300" style="margin-top: 50px;"/>
+					<h4>All the numbers you selected will be eliminated.</h4>
+				</div>
+				<div style="background-image:url(img/page.png);" class="hard">
+					<h1>
+					<br/>
+					<br/>
+					Rule Two:</h1><h4>
+					<br/>
+					All the number you select must be linked one by one to be a queue.</h4>
+				</div>
+				<div style="background-image:url(img/page.png);" class="hard">
+					<br/>
+					<img src="img/rule/rule2.jpg" width="300" style="margin-top: 50px;"/>
+					<h4>The queue can turn corners.</h4>
+				</div>
+				<div style="background-image:url(img/page.png);" class="hard">
+					<h1>
+					<br/>
+					<br/>
+					Rule Three:</h1><h4>
+					<br/>
+					If time is over. Game Over.
+					<br />
+					System will record your highest score. </h4>
+				</div>
+				<div style="background-image:url(img/page.png);" class="hard">
+					<br/>
+					<img src="img/rule/rule3.jpg" width="300" style="margin-top: 50px;"/>
+				</div>
+				<div style="background-image:url(img/page.png);" class="hard">
+					<p style="font-size: 100px;font-family: 'edwardian script itc';">
+						<br/><br/>
+						&nbspTHE
+						<br/>
+						<br/>
+						<br/>
+						END
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="js/library/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/library/turn.min.js"></script>
+	<script type="text/javascript">
+		$("#flipbook").turn({
+			width : 650,
+			height : 450,
+			autoCenter : true
+		});
+		document.oncontextmenu = function(e) {
+			return false;
+		}
+	</script>
+</html>

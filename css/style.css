@@ -1,0 +1,83 @@
+﻿#header {
+	margin: 0 auto;
+	width: 400px;
+	padding-top: 50px;
+}
+
+#body {
+	margin: 0 auto;
+	width: 400px;
+}
+
+#map {
+	background: none repeat scroll 0 0 #6699CC;
+	height: 400px;
+	width: 400px;
+	border: 5px;
+	box-shadow: 0px 0px 15px #EEE;
+}
+
+#instructions {
+	color: #808080;
+}
+
+.row {
+	margin: 30px 0px;
+	pading: 10px;
+}
+
+#start_travel {
+	background: #000;
+	color: #909090;
+	padding: 5px 10px;
+	border: 5px solid #303030;
+	border-radius: 5px 5px 5px 5px;
+	text-decoration: none;
+}
+
+#pauseDiv {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: script;
+	width: 570px;
+	height: 570px;
+	background-color: #88FF44;
+	display: none;
+	text-align: center;
+	line-height: 85px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#comeBack {
+	display: none;
+	position: absolute;
+	margin-top: -570px;
+	margin-left: 710px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: script;
+}
+
+#gameOver {
+	width: 320px;
+	height: 180px;
+	display: none;
+	background-color: #33FF00;
+	margin-top: -370px;
+	margin-left: 120px;
+	font-size: 60px;
+	text-align: center;
+	line-height: 160px;
+	font-weight: bold;
+	font-family: 'script mt bold';
+}
+
+#instructions {
+	display: none;
+	border: none;
+	background: #44FF44;
+}
