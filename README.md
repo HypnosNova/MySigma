@@ -4,3 +4,7 @@
 
 =====Open Source Liscense <a target='_blank' href="http://en.wikipedia.org/wiki/MIT_License">MIT License</a>
 ===== <a target='_blank' href="http://lufylegend.com/lufylegend">http://lufylegend.com/lufylegend</a>
+
+You can play at this website:http://novamysigma.sinaapp.com
+
+<iframe src="http://novamysigma.sinaapp.com"></iframe>
